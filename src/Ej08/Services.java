@@ -20,7 +20,6 @@ public class Services {
                 contador++;
             }
         }
-
         System.out.println("La frase contiene " + contador + " Vocales");
         System.out.println("");
     }

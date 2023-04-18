@@ -66,17 +66,13 @@ public class Services {
         if (persona.getEdad() >= 18) {
             System.out.println("es mayor de edad");
             conteo = true;
+            porcenEdad++;
         } else {
             conteo = false;
         }
-        porcentajeEdad(conteo);
+        System.out.println(conteo);
     }
 
-    public void porcentajeEdad(boolean conteo) {
-        if (conteo) {
-            porcenEdad++;
-        }
-    }
     
     public void mostrarResultados(){
         System.out.println("Existen " + porcenEdad + " personas mayores de edad, dando un pocentaje de: " + (porcenEdad*100)/casos + "%");

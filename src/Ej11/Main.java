@@ -32,7 +32,7 @@ public class Main {
         Date fechaActual = new Date();
 
         System.out.println("La fecha actual es: ");
-        System.out.println(fechaActual.getDate() + "/" + (fechaActual.getMonth() + 1) + "/" + (fechaActual.getYear() + 1900));
+        System.out.println(fechaActual.getDate() + "/" + (fechaActual.getMonth() + 1) + "/" + (fechaActual.getYear()+1900));
 
         //constructor con parámetros        
         System.out.println("Ingrese su fecha de nacimiento (año, mes, día)");
